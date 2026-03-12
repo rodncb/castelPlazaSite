@@ -1,0 +1,28 @@
+import Header from './components/Header'
+import Hero from './components/Hero'
+import About from './components/About'
+import Rooms from './components/Rooms'
+import Services from './components/Services'
+import EventHall from './components/EventHall'
+import MeetingSpaces from './components/MeetingSpaces'
+import Region from './components/Region'
+import ReservationForm from './components/ReservationForm'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+export default function App() {
+  return (
+    <>
+      <Header />
+      <Hero />
+      <About />
+      <Rooms />
+      <Services />
+      <EventHall />
+      <MeetingSpaces />
+      <Region />
+      <ReservationForm />
+      <Contact />
+      <Footer />
+    </>
+  )
+}
