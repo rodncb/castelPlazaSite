@@ -74,7 +74,7 @@ export default function EventHall() {
                 </li>
               ))}
             </ul>
-            <a href="#contato" className="btn btn-primary">Solicitar Orçamento</a>
+            <a href="mailto:reservas@castelplaza.com.br?subject=Orçamento - Salão de Festas" className="btn btn-primary">Solicitar Orçamento</a>
           </div>
           <div className="event-hall-image">
             <div className="event-carousel" onClick={() => setPopup(true)}>

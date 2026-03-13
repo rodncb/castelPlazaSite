@@ -9,6 +9,7 @@ import Region from './components/Region'
 import ReservationForm from './components/ReservationForm'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 export default function App() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function App() {
       <ReservationForm />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }

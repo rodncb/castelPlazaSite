@@ -15,7 +15,18 @@ export default function ReservationForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Apenas simula envio para o layout
+    const subject = encodeURIComponent('Pré-Reserva - Castel Plaza Hotel')
+    const body = encodeURIComponent(
+      `Nome: ${form.nome}\n` +
+      `E-mail: ${form.email}\n` +
+      `Telefone: ${form.telefone}\n` +
+      `Nº de Hóspedes: ${form.hospedes}\n` +
+      `Check-in: ${form.checkin}\n` +
+      `Check-out: ${form.checkout}\n` +
+      `Acomodação: ${form.acomodacao}\n` +
+      `Observações: ${form.observacoes}`
+    )
+    window.location.href = `mailto:reservas@castelplaza.com.br?subject=${subject}&body=${body}`
     setSubmitted(true)
   }
 

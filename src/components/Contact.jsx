@@ -17,14 +17,14 @@ export default function Contact() {
               <FiMapPin className="icon" />
               <div>
                 <h4>Endereço</h4>
-                <p>Rua Tenente Coronel Adalberto Mendes, 43<br />Centro - Resende/RJ<br />CEP 27511-100</p>
+                <p>Av. Mal. Castelo Branco, 301<br />Campos Elíseos - Resende/RJ<br />CEP 27541-220</p>
               </div>
             </div>
             <div className="contact-item">
               <FiPhone className="icon" />
               <div>
                 <h4>Telefone</h4>
-                <a href="tel:+552433546500">(24) 3354-6500</a>
+                <a href="tel:+552433583200">(24) 3358-3200</a>
               </div>
             </div>
             <div className="contact-item">

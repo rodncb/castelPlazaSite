@@ -86,7 +86,7 @@ export default function MeetingSpaces() {
                 flip-chart, computador, copiadora, microfones (com e sem fio), púlpito, palco,
                 poltronas confortáveis com apoio para escrita e som ambiente.
               </p>
-              <a href="#contato" className="btn btn-primary" style={{ marginTop: 'auto', display: 'inline-block', alignSelf: 'flex-start', paddingTop: '15px' }}>
+              <a href="mailto:reservas@castelplaza.com.br?subject=Orçamento - Centro de Convenções" className="btn btn-primary" style={{ marginTop: 'auto', display: 'inline-block', alignSelf: 'flex-start', paddingTop: '15px' }}>
                 Solicitar Orçamento
               </a>
             </div>
@@ -99,7 +99,7 @@ export default function MeetingSpaces() {
                 Em ambiente climatizado, oferecemos todas as facilidades necessárias para a
                 realização de reuniões. Capacidade para 40 pessoas.
               </p>
-              <a href="#contato" className="btn btn-primary" style={{ marginTop: 'auto', display: 'inline-block', alignSelf: 'flex-start', paddingTop: '15px' }}>
+              <a href="mailto:reservas@castelplaza.com.br?subject=Orçamento - Sala de Reuniões" className="btn btn-primary" style={{ marginTop: 'auto', display: 'inline-block', alignSelf: 'flex-start', paddingTop: '15px' }}>
                 Solicitar Orçamento
               </a>
             </div>
