@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import { FiCheck } from 'react-icons/fi'
-
 import img1 from '../media/salaodefestas/1 (1).png'
 import img2 from '../media/salaodefestas/2.png'
 import img3 from '../media/salaodefestas/3 (1).png'
@@ -14,17 +12,6 @@ import img9 from '../media/salaodefestas/9-1.png'
 import img10 from '../media/salaodefestas/10 (1).png'
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img7b, img8, img9, img10]
-
-const features = [
-  'Capacidade para até 250 pessoas',
-  'Sistema de som profissional',
-  'Iluminação decorativa',
-  'Espaço para DJ e banda',
-  'Cozinha de apoio',
-  'Estacionamento amplo',
-  'Equipe de apoio dedicada',
-  'Decoração personalizada',
-]
 
 export default function EventHall() {
   const [current, setCurrent] = useState(0)
@@ -57,23 +44,15 @@ export default function EventHall() {
         <div className="event-hall-content">
           <div className="event-hall-text">
             <p>
-              Nosso salão de festas é o cenário ideal para casamentos, formaturas,
-              confraternizações e eventos corporativos. Com um espaço amplo e
-              elegante, oferecemos toda a infraestrutura necessária para tornar
-              seu evento inesquecível.
+              Com capacidade para 150 pessoas, nosso salão de festas é o cenário ideal para
+              casamentos, formaturas, confraternizações e eventos corporativos. Com um espaço
+              amplo e elegante, oferecemos toda a infraestrutura necessária para tornar seu
+              evento inesquecível.
             </p>
             <p>
               Contamos com uma equipe especializada para auxiliar no planejamento
               e execução do seu evento, garantindo que cada detalhe seja perfeito.
             </p>
-            <ul className="event-hall-features">
-              {features.map(f => (
-                <li key={f}>
-                  <FiCheck className="icon" />
-                  <span>{f}</span>
-                </li>
-              ))}
-            </ul>
             <a href="mailto:reservas@castelplaza.com.br?subject=Orçamento - Salão de Festas" className="btn btn-primary">Solicitar Orçamento</a>
           </div>
           <div className="event-hall-image">

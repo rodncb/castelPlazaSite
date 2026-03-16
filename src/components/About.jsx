@@ -16,7 +16,7 @@ export default function About() {
         <div className="section-title">
           <h2>Sobre o Hotel</h2>
           <div className="underline"></div>
-          <p>Tradição e conforto há mais de duas décadas em Resende/RJ</p>
+          <p>Tradição e conforto há mais de duas décadas.</p>
         </div>
         <div className="about-grid">
           <div className="about-image">

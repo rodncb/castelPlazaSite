@@ -27,7 +27,6 @@ export default function Hero() {
       <div className="hero-content">
         <h1>Castel <span>Plaza</span> Hotel</h1>
         <p className="tagline">Conforto e elegância no coração de Resende</p>
-        <p className="location">Resende - Rio de Janeiro</p>
         <div className="hero-buttons">
           <a href="#reserva" className="btn btn-primary">Reserve Agora</a>
           <a href="#acomodacoes" className="btn btn-outline">Conheça Nossos Quartos</a>
