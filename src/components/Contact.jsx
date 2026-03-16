@@ -1,4 +1,4 @@
-import { FiMapPin, FiPhone, FiMail, FiClock } from 'react-icons/fi'
+import { FiMapPin, FiPhone, FiMail } from 'react-icons/fi'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export default function Contact() {
@@ -32,13 +32,6 @@ export default function Contact() {
               <div>
                 <h4>E-mail</h4>
                 <a href="mailto:reservas@castelplaza.com.br">reservas@castelplaza.com.br</a>
-              </div>
-            </div>
-            <div className="contact-item">
-              <FiClock className="icon" />
-              <div>
-                <h4>Recepção</h4>
-                <p>24 horas</p>
               </div>
             </div>
             <div className="social-links">
