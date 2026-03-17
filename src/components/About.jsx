@@ -6,8 +6,8 @@ export default function About() {
     'Café da manhã incluso',
     'Wi-Fi de alta velocidade',
     'Estacionamento gratuito',
-    'Equipe multilíngue',
-    'Atendimento 24h',
+    'Sauna',
+    'Sala de ginástica',
   ]
 
   return (
