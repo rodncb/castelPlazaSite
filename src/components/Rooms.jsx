@@ -27,7 +27,7 @@ import casal5 from '../media/Quartos/Apartamento Standard Single ou Duplo – Ca
 const rooms = [
   {
     name: 'Single',
-    images: [casal1, casal2, casal3, casal4, casal5],
+    images: [casal1, casal3, casal4, casal5],
     price: 'Consulte',
   },
   {
