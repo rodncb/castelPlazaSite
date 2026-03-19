@@ -26,63 +26,23 @@ import casal5 from '../media/Quartos/Apartamento Standard Single ou Duplo – Ca
 
 const rooms = [
   {
-    name: 'Apartamento Deluxe',
-    images: [deluxe1, deluxe2, deluxe3, deluxe4, deluxe5],
-    amenities: [
-      '1 Cama de casal',
-      'Vista da cidade',
-      'Ar-condicionado',
-      'Banheiro no quarto',
-      'TV de tela plana',
-      'Frigobar',
-      'WiFi Gratuito',
-      'Área: 30m²',
-    ],
-    price: 'Consulte',
-  },
-  {
-    name: 'Apartamento Conjugado',
-    images: [conj1, conj2, conj3, conj4, conj5],
-    amenities: [
-      '4 camas de solteiro ou 2 solteiro + 1 casal',
-      'Vista da cidade',
-      'Ar-condicionado',
-      'Banheiro no quarto',
-      'TV de tela plana',
-      'Frigobar',
-      'WiFi Gratuito',
-      'Área: 30m²',
-    ],
-    price: 'Consulte',
-  },
-  {
-    name: 'Apt. Standard – Camas Separadas',
-    images: [sepCama1, sepCama2, sepCama3, sepCama4, sepCama5],
-    amenities: [
-      '2 camas de solteiro',
-      'Vista da cidade',
-      'Ar-condicionado',
-      'Banheiro no quarto',
-      'TV de tela plana',
-      'Frigobar',
-      'WiFi Gratuito',
-      'Área: 24m²',
-    ],
-    price: 'Consulte',
-  },
-  {
-    name: 'Apt. Standard – Cama Casal',
+    name: 'Single',
     images: [casal1, casal2, casal3, casal4, casal5],
-    amenities: [
-      '1 cama de casal',
-      'Vista da cidade',
-      'Ar-condicionado',
-      'Banheiro no quarto',
-      'TV de tela plana',
-      'Frigobar',
-      'WiFi Gratuito',
-      'Área: 24m²',
-    ],
+    price: 'Consulte',
+  },
+  {
+    name: 'Duplo',
+    images: [sepCama1, sepCama2, sepCama3, sepCama4, sepCama5],
+    price: 'Consulte',
+  },
+  {
+    name: 'Triplo',
+    images: [conj1, conj2, conj3, conj4, conj5],
+    price: 'Consulte',
+  },
+  {
+    name: 'Quádruplo',
+    images: [deluxe1, deluxe2, deluxe3, deluxe4, deluxe5],
     price: 'Consulte',
   },
 ]
@@ -154,11 +114,6 @@ export default function Rooms() {
               <RoomCarousel images={room.images} name={room.name} />
               <div className="room-info">
                 <h3>{room.name}</h3>
-                <div className="room-amenities">
-                  {room.amenities.map((a) => (
-                    <span key={a}>{a}</span>
-                  ))}
-                </div>
                 <div className="room-price">
                   <span className="price">
                     {room.price} <small>/ diária</small>
