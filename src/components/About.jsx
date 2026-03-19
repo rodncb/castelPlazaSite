@@ -1,4 +1,15 @@
+import { FiCheck } from 'react-icons/fi'
+
 export default function About() {
+  const features = [
+    'Localização privilegiada',
+    'Café da manhã incluso',
+    'Wi-Fi de alta velocidade',
+    'Estacionamento gratuito',
+    'Sauna',
+    'Sala de ginástica',
+  ]
+
   return (
     <section className="about section" id="sobre">
       <div className="container">
@@ -34,6 +45,14 @@ export default function About() {
               Aqui, você encontra o equilíbrio perfeito entre trabalho e lazer, com a qualidade e o
               conforto que você merece.
             </p>
+            <div className="about-features">
+              {features.map(f => (
+                <div className="about-feature" key={f}>
+                  <FiCheck className="icon" />
+                  <span>{f}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
