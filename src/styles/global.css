@@ -694,6 +694,38 @@ img {
   display: block;
 }
 
+/* ========== SAUNA ========== */
+.sauna {
+  background: var(--white);
+}
+
+.sauna-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.sauna-gallery-item {
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.sauna-gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(1.2) contrast(1.1) saturate(1.15);
+  transition: transform 0.3s ease;
+}
+
+.sauna-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+
 /* ========== MEETING SPACES ========== */
 .meeting-spaces {
   background: var(--bg);
@@ -1142,6 +1174,10 @@ img {
   }
 
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sauna-gallery {
     grid-template-columns: 1fr;
   }
 

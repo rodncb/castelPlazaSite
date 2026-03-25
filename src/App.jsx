@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Rooms from './components/Rooms'
 import Services from './components/Services'
+import Sauna from './components/Sauna'
 import EventHall from './components/EventHall'
 import MeetingSpaces from './components/MeetingSpaces'
 import Region from './components/Region'
@@ -19,6 +20,7 @@ export default function App() {
       <Rooms />
       <Services />
       <EventHall />
+      <Sauna />
       <MeetingSpaces />
       <Region />
       <ReservationForm />
