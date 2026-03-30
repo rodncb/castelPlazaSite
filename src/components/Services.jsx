@@ -1,4 +1,4 @@
-import { FiCoffee, FiMonitor, FiUsers, FiActivity, FiStar } from 'react-icons/fi'
+import { FiCoffee, FiMonitor, FiUsers, FiActivity, FiStar, FiDroplet } from 'react-icons/fi'
 
 const services = [
   {
@@ -10,6 +10,11 @@ const services = [
     icon: <FiActivity />,
     title: 'Academia',
     description: 'Sala de ginástica equipada para que você mantenha sua rotina de exercícios durante a estadia.',
+  },
+  {
+    icon: <FiDroplet />,
+    title: 'Sauna',
+    description: 'Sauna relaxante para renovar suas energias e garantir bem-estar durante sua estadia.',
   },
   {
     icon: <FiMonitor />,

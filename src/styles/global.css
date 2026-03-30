@@ -592,7 +592,7 @@ img {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 30px;
 }
 
@@ -717,7 +717,7 @@ img {
   height: 220px;
   object-fit: cover;
   display: block;
-  filter: brightness(1.2) contrast(1.1) saturate(1.15);
+  filter: brightness(1.35) contrast(1.05) saturate(1.1);
   transition: transform 0.3s ease;
 }
 
@@ -1097,7 +1097,7 @@ img {
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1024px) {
   .services-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .rooms-grid {

@@ -19,8 +19,8 @@ export default function App() {
       <About />
       <Rooms />
       <Services />
-      <EventHall />
       <Sauna />
+      <EventHall />
       <MeetingSpaces />
       <Region />
       <ReservationForm />
