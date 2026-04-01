@@ -231,6 +231,10 @@ img {
   opacity: 1;
 }
 
+.hero-slide:first-child {
+  filter: brightness(1.35) contrast(1.1) saturate(1.2);
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
